@@ -6,7 +6,7 @@ return {
     require('lualine').setup({
         theme = 'gruvbox',
         options = {
-          icons_enabled = false,
+          icons_enabled = true,
           component_separators = '',
           section_separators = '',
         },
@@ -16,7 +16,7 @@ return {
           lualine_c = { { 'filename', path = 1 } },
           lualine_x = { 'diagnostics' },
           lualine_y = { 'filetype', 'lsp_status' },
-          lualine_z = { 'location' }
+          lualine_z = { 'location', 'searchcount' }
         },
         -- tabline = {
         --   -- lualine_a = { 'buffers' },
