@@ -17,7 +17,8 @@ vim.opt.showcmd = true
 
 vim.opt.swapfile = false
 vim.opt.backup = false
-vim.opt.undodir = os.getenv("HOME") .. "/.config/nvim/undodir"
+-- undodir breaks on windows because os.getenv("HOME") returns nil value
+-- vim.opt.undodir = os.getenv("HOME") .. "/.config/nvim/undodir"
 vim.opt.undofile = true
 vim.opt.clipboard = "unnamed"
 
