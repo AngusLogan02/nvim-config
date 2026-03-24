@@ -9,11 +9,11 @@ return {
     --   'python',
     -- })
 
-    -- vim.api.nvim_create_autocmd('FileType', {
-    --   pattern = {
-    --     'lua',
-    --     'python',
-    --   },
+    vim.api.nvim_create_autocmd('FileType', {
+      pattern = {
+        'lua',
+        'python',
+      },
       callback = function()
         vim.treesitter.start()
       end,
