@@ -5,8 +5,9 @@ vim.opt.expandtab = true
 vim.opt.autoindent = true
 vim.opt.smartindent = true
 vim.opt.smarttab = true
-vim.opt.list = true
+-- vim.opt.list = true
 -- vim.opt.listchars = "eol:.,tab:>-,trail:~,extends:>,precedes:<"
+vim.opt.wrap = false
 
 vim.opt.number = true
 vim.opt.relativenumber = true
