@@ -5,3 +5,6 @@ vim.keymap.set("n", "<Leader>h", "<C-w>h")
 vim.keymap.set("n", "<Leader>j", "<C-w>j")
 vim.keymap.set("n", "<Leader>k", "<C-w>k")
 vim.keymap.set("n", "<Leader>l", "<C-w>l")
+
+vim.keymap.set("n", "<Leader>y", '"+y')
+vim.keymap.set("n", "<Leader>p", '"+p')

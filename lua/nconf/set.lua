@@ -15,17 +15,18 @@ vim.opt.signcolumn = "yes:1"
 vim.opt.scrolloff = 8
 vim.opt.showcmd = true
 
+vim.opt.winborder = "rounded"
+
 vim.opt.swapfile = false
 vim.opt.backup = false
 -- undodir breaks on windows because os.getenv("HOME") returns nil value
 -- vim.opt.undodir = os.getenv("HOME") .. "/.config/nvim/undodir"
 vim.opt.undofile = true
-vim.opt.clipboard = "unnamed"
 
 vim.opt.hlsearch = true
 vim.opt.incsearch = true
 vim.opt.ignorecase = true
-vim.opt.smartcase =true
+vim.opt.smartcase = true
 
 vim.opt.termguicolors = true
 
