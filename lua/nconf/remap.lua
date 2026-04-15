@@ -10,3 +10,5 @@ vim.keymap.set("n", "<Leader>y", '"+y')
 vim.keymap.set("n", "<Leader>p", '"+p')
 vim.keymap.set("v", "<Leader>y", '"+y')
 vim.keymap.set("v", "<Leader>p", '"+p')
+
+vim.keymap.set("t", "jk", "<C-\\><C-n>")
