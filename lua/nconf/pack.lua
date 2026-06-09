@@ -8,6 +8,8 @@ vim.pack.add({
 	{ src = "https://github.com/windwp/nvim-autopairs" },
 
 	{ src = "https://github.com/stevearc/oil.nvim" },
+	{ src = "https://github.com/nvim-tree/nvim-web-devicons" },
+
 	{ src = "https://github.com/stevearc/conform.nvim" },
 
 	{ src = "https://github.com/ellisonleao/gruvbox.nvim" },
@@ -41,3 +43,5 @@ require("nconf.plugins.gitsigns")
 require("nconf.plugins.surround")
 require("nconf.plugins.indentblankline")
 require("nconf.plugins.autopairs")
+require("nconf.plugins.blink")
+require("nconf.plugins.obsession")

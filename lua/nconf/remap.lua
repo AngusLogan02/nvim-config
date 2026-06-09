@@ -14,3 +14,5 @@ vim.keymap.set("v", "<Leader>p", '"+p')
 vim.keymap.set("t", "jk", "<C-\\><C-n>")
 
 vim.keymap.set("n", "<Leader>t", ":terminal<CR>a")
+
+vim.keymap.set("n", "<Leader>ls", ":source Session.vim<CR>")
