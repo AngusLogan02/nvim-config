@@ -2,7 +2,7 @@ require("lualine").setup({
 	theme = "gruvbox",
 	options = {
 		icons_enabled = true,
-		component_separators = "",
+		component_separators = "|",
 		section_separators = "",
 	},
 	sections = {

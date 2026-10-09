@@ -17,4 +17,4 @@ vim.keymap.set("n", "<Leader>t", ":terminal<CR>a")
 
 vim.keymap.set("n", "<Leader>s", ":source Session.vim<CR>")
 
-vim.keymap.set("n", "<Leader>og", ":CodeCompanionChat Toggle<CR>")
+vim.keymap.set("n", "<Leader>og", ":Sidekick cli toggle name=opencode<CR>")
