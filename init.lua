@@ -1,4 +1,5 @@
 vim.g.mapleader = " "
+vim.o.shellcmdflag = "-c" -- for windows bash
 
 require("vim._core.ui2").enable({})
 require("nconf.pack")

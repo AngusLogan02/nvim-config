@@ -10,6 +10,4 @@ cmp.setup({
 	completion = {},
 
 	sources = { default = { "lsp", "path", "snippets", "buffer" } },
-
-	fuzzy = { implementation = "rust" },
 })
