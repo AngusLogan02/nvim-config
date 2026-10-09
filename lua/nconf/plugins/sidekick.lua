@@ -5,4 +5,11 @@ vim.pack.add({
 })
 
 local sk = require("sidekick")
-sk.setup({})
+sk.setup({
+	cli = {
+		mux = {
+			backend = "zellij",
+			enabled = true,
+		},
+	},
+})

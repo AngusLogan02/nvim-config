@@ -1,5 +1,9 @@
 vim.g.mapleader = " "
 vim.o.shellcmdflag = "-c" -- for windows bash
+vim.o.shellquote = ""
+vim.o.shellxquote = "" -- windows default wraps commands in ", which bash treats as one word
+-- sidekick only runs a command directly if exepath() ends in lowercase ".exe"; windows PATHEXT is uppercase
+vim.env.PATHEXT = (vim.env.PATHEXT or ""):lower()
 
 require("vim._core.ui2").enable({})
 require("nconf.pack")
